@@ -8616,12 +8616,12 @@ local Info = Window:NewTab("Info")
 
 local InfoSection = Info:NewSection("Updates")
 
-InfoSection:NewButton("Last updated on 20:32 21/08/2022", ":Smileyface:", function()
-	print("Last updated on 20:32 21/08/2022")
+InfoSection:NewButton("Last updated on 12:35 27/08/2022", ":Smileyface:", function()
+	print("Last updated on 12:35 27/08/2022")
 end)
 
 -- UPDATES
-InfoSection:NewButton("Click for updates ----------------->", "Added remotespy", function()
+InfoSection:NewButton("Click for updates ----------------->", "Added crim stuff", function()
 end)
 
 
@@ -11576,3 +11576,4 @@ end)
 CrimSection:NewSlider("Fly Speed", "2", 250, 10, function(s) -- 250 (MaxValue) | 0 (MinValue)
     _G.FlySpeed = s
 end)
+
