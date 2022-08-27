@@ -11501,7 +11501,7 @@ end)
 local CrimSection = Crim:NewSection("LocalPlayer")
 
 
-CrimSection:NewButton("Fly  (G)", "h", function()
+CrimSection:NewButton("Tp Fly  (G)", "h", function()
 	spawn(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/LegitH3x0R/Roblox-Scripts/main/AEBypassing/RootAnchor.lua"))()
  
@@ -11574,10 +11574,20 @@ end)
     
 
 
-CrimSection:NewSlider("Fly Speed", "2", 250, 10, function(s) -- 250 (MaxValue) | 0 (MinValue)
+CrimSection:NewSlider("Fly Speed", "2", 1000, 10, function(s) -- 250 (MaxValue) | 0 (MinValue)
     _G.FlySpeed = s
 end)
 
 
+
+
+
+
+
+
+
+CrimSection:NewButton("Actual Fly", "Cant be turned off", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/WxmvCLLH"))()
+end)
 
 
