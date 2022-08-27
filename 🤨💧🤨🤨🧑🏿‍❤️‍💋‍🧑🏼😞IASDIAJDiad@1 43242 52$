@@ -11587,7 +11587,9 @@ end)
 
 
 CrimSection:NewButton("Actual Fly", "Cant be turned off", function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/WxmvCLLH"))()
+    _G.Speed = 2
+    
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/HashbrownGamer/-/main/%F0%9F%91%89%F0%9F%91%A3%F0%9F%91%BD%F0%9F%93%B8%F0%9F%91%89%F0%9F%98%81%F0%9F%A4%93%F0%9F%A4%93%F0%9F%91%89%F0%9F%92%80"))()
 end)
 
 
