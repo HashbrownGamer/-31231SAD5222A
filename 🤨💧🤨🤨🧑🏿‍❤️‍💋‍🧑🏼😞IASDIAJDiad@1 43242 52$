@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Troller Gui                                                                 Yield#0988", "GrapeTheme")
+local Window = Library.CreateLib("Troller Gui                                                                 Yield#0988", "Serpent")
 
 
 -- MAIN
@@ -8608,6 +8608,46 @@ game.Players.PlayerAdded:Connect(function(newplr)
     end)
 end)
 end)
+local Aim = Window:NewTab("Aim")
+local AimSection = Aim:NewSection("Aim things")
+
+
+AimSection:NewButton("Fates esp", "Really good aimbot + wallbang and esp", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua'))()
+end)
+
+AimSection:NewButton("Aimware", "Aimbot + esp + cool UI", function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/Wheeleee/AIMWARE/main/Startup")()
+end)
+
+
+AimSection:NewButton("Some random silent aim script", "Silent aim", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Averiias/Universal-SilentAim/main/main.lua"))()
+end)
+
+
+
+AimSection:NewButton("WinterTime", "Silent aim", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Nosssa/NossLock/main/WinterTime"))()
+end)
+
+
+local Visuals = Window:NewTab("Visuals")
+local VisualsSection = Visuals:NewSection("Esp")
+
+VisualsSection:NewButton("Unnamed esp", "ESP", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua", true))();
+end)
+
+
+
+
+
+local VisualsSection = Visuals:NewSection("Fov")
+VisualsSection:NewSlider("Fov", "Fov", 120, 70, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    local FOV = s
+game.Workspace.Camera.FieldOfView = FOV
+end)
 
 
 -- Info
@@ -11256,14 +11296,6 @@ local CrimSection = Crim:NewSection("Tp")
 
 
 CrimSection:NewButton("Vibe", "Tp to vibe", function()
-	local args = {
-		[1] = "__--r",
-		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
-		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
-	}
-	
-	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
-	wait(0)
     local teleport_table = {
 		location1 = Vector3.new(-4782.52051, -200.968185, -957.955322, 0.223733395, -1.75558512e-09, 0.974650383, -3.19841647e-08, 1, 9.14328968e-09, -0.974650383, -3.32190382e-08, 0.223733395), -- your desired position
 		location2 = Vector3.new()  -- your desired position
@@ -11286,27 +11318,12 @@ CrimSection:NewButton("Vibe", "Tp to vibe", function()
 	end
 	
 	bypass_teleport(teleport_table.location1)
-	wait(3)
-	local args = {
-		[1] = "__--r",
-		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
-		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
-	}
-	
-	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 end)
 
 
 
 CrimSection:NewButton("Cafe", "Tp to Cafe", function()
-	local args = {
-		[1] = "__--r",
-		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
-		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
-	}
 	
-	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
-	wait(0)
 	local teleport_table = {
 		location1 = Vector3.new(-4668.15527, 5.99767447, -255.463531, -0.650091171, 3.60042627e-08, 0.759856224, 7.95636197e-08, 1, 2.06872599e-08, -0.759856224, 7.39055181e-08, -0.650091171), -- your desired position
 		location2 = Vector3.new()  -- your desired position
@@ -11329,28 +11346,13 @@ CrimSection:NewButton("Cafe", "Tp to Cafe", function()
 	end
 	
 	bypass_teleport(teleport_table.location1)
-	wait(3)
-	local args = {
-		[1] = "__--r",
-		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
-		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
-	}
-	
-	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 end)
 
 
 
 
 CrimSection:NewButton("Atm", "Tp to Atm", function()
-	local args = {
-		[1] = "__--r",
-		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
-		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
-	}
 	
-	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
-	wait(0)
 	local teleport_table = {
 		location1 = Vector3.new(-4793.04785, 3.79732347, -379.897339, -0.426541179, -6.93341704e-08, -0.904468119, 5.07585867e-08, 1, -1.00594811e-07, 0.904468119, -8.88173517e-08, -0.426541179), -- your desired position
 		location2 = Vector3.new()  -- your desired position
@@ -11373,28 +11375,12 @@ CrimSection:NewButton("Atm", "Tp to Atm", function()
 	end
 	
 	bypass_teleport(teleport_table.location1)
-	wait(3)
-	local args = {
-		[1] = "__--r",
-		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
-		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
-	}
-	
-	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 end)
 
 
 
 
 CrimSection:NewButton("Armory", "Tp to Armory", function()
-	local args = {
-		[1] = "__--r",
-		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
-		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
-	}
-	
-	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
-	wait(0)
 	local teleport_table = {
 		location1 = Vector3.new(-4770.24219, 4.00021076, -418.11261, 0.999993443, -2.15534008e-08, 0.00362686743, 2.16136673e-08, 1, -1.65772001e-08, -0.00362686743, 1.66554806e-08, 0.999993443), -- your desired position
 		location2 = Vector3.new()  -- your desired position
@@ -11417,27 +11403,11 @@ CrimSection:NewButton("Armory", "Tp to Armory", function()
 	end
 	
 	bypass_teleport(teleport_table.location1)
-	wait(3)
-	local args = {
-		[1] = "__--r",
-		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
-		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
-	}
-	
-	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 end)
 
 
 
 CrimSection:NewButton("Dealer", "Tp to Dealer", function()
-	local args = {
-		[1] = "__--r",
-		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
-		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
-	}
-	
-	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
-	wait(0)
 	local teleport_table = {
 		location1 = Vector3.new(-4818.96191, 3.79540682, -711.538208, 0.0106552662, 1.02375019e-07, -0.999943256, -1.5388661e-08, 1, 1.02216845e-07, 0.999943256, 1.42986396e-08, 0.0106552662), -- your desired position
 		location2 = Vector3.new()  -- your desired position
@@ -11460,26 +11430,10 @@ CrimSection:NewButton("Dealer", "Tp to Dealer", function()
 	end
 	
 	bypass_teleport(teleport_table.location1)
-	wait(3)
-	local args = {
-		[1] = "__--r",
-		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
-		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
-	}
-	
-	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 end)
 
 
 CrimSection:NewButton("Atm farm Spot", "Tp to farm spot", function()
-	local args = {
-		[1] = "__--r",
-		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
-		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
-	}
-	
-	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
-	wait(0)
 	local teleport_table = {
 		location1 = Vector3.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939), -- your desired position
 		location2 = Vector3.new()  -- your desired position
@@ -11502,28 +11456,10 @@ CrimSection:NewButton("Atm farm Spot", "Tp to farm spot", function()
 	end
 	
 	bypass_teleport(teleport_table.location1)
-
-	wait(3)
-	local args = {
-		[1] = "__--r",
-		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
-		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
-	}
-	
-	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 end)
 
 
 CrimSection:NewButton("Afk", "Tp to Afk", function()
-	local args = {
-		[1] = "__--r",
-		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
-		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
-	}
-	
-	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
-
-	wait(0)
 
 	local teleport_table = {
 		location1 = Vector3.new(-4919.7583, 144.258896, -1160.41406, -0.980917633, -5.26523145e-08, 0.194423869, -6.67045938e-08, 1, -6.57295658e-08, -0.194423869, -7.74442555e-08, -0.980917633), -- your desired position
@@ -11547,35 +11483,11 @@ CrimSection:NewButton("Afk", "Tp to Afk", function()
 	end
 	
 	bypass_teleport(teleport_table.location1)
-	wait(3)
-	local args = {
-		[1] = "__--r",
-		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
-		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
-	}
-	
-	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
-	wait(1)
-	local args = {
-		[1] = "__--r",
-		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
-		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
-	}
-	
-	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+
 
 end)
 
 CrimSection:NewButton("Activate elevator", "Yes", function()
-	local args = {
-		[1] = "__--r",
-		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
-		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
-	}
-	
-	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
-
-	wait(0)
 
 	local teleport_table = {
 		location1 = Vector3.new(-4768.04932, -34.7739296, -819.094543, 0.988456249, 3.19767217e-08, 0.151506558, -7.68154429e-09, 1, -1.60942562e-07, -0.151506558, 1.57920866e-07, 0.988456249), -- your desired position
@@ -11600,17 +11512,10 @@ CrimSection:NewButton("Activate elevator", "Yes", function()
 	
 	bypass_teleport(teleport_table.location1)
 	wait(6)
-	workspace.Map.Doors.Elevator_28.Events.Toggle:FireServer("Do",workspace.Map.Doors.Elevator_28.Knob1)
-	wait(0.5)
-	local args = {
-		[1] = "__--r",
-		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
-		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
-	}
-	
-	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 
-	wait(0)
+	workspace.Map.Doors.Elevator_28.Events.Toggle:FireServer("Do",workspace.Map.Doors.Elevator_28.Knob1)
+
+	wait(0.5)
 
 	local teleport_table = {
 		location1 = Vector3.new(-4776.54443, -201.170593, -841.524048, -0.999996543, 3.94626509e-09, -0.00263069896, 3.87776122e-09, 1, 2.60452833e-08, 0.00263069896, 2.60349911e-08, -0.999996543), -- your desired position
@@ -11633,9 +11538,6 @@ CrimSection:NewButton("Activate elevator", "Yes", function()
 		end
 	end
 	
-	bypass_teleport(teleport_table.location1)
-	
-
 end)
 
 
@@ -11735,5 +11637,8 @@ CrimSection:NewButton("Actual Fly", "Cant be turned off", function()
     
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/HashbrownGamer/-/main/%F0%9F%91%89%F0%9F%91%A3%F0%9F%91%BD%F0%9F%93%B8%F0%9F%91%89%F0%9F%98%81%F0%9F%A4%93%F0%9F%A4%93%F0%9F%91%89%F0%9F%92%80"))()
 end)
+
+
+
 
 
