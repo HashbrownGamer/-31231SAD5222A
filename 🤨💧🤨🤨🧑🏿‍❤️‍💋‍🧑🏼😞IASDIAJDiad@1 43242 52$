@@ -11537,6 +11537,7 @@ CrimSection:NewButton("Activate elevator", "Yes", function()
 			-- print('Teleporting Done!')
 		end
 	end
+	bypass_teleport(teleport_table.location1)
 	
 end)
 
