@@ -8656,12 +8656,12 @@ local Info = Window:NewTab("Info")
 
 local InfoSection = Info:NewSection("Updates")
 
-InfoSection:NewButton("Last updated on 12:35 27/08/2022", ":Smileyface:", function()
-	print("Last updated on 12:35 27/08/2022")
+InfoSection:NewButton("Last updated on 05:39 PM 3/09/2022", ":Smileyface:", function()
+	print("Last updated on 05:39 PM 3/09/2022")
 end)
 
 -- UPDATES
-InfoSection:NewButton("Click for updates ----------------->", "Added crim stuff", function()
+InfoSection:NewButton("Click for updates ----------------->", "Added goofy stuff", function()
 end)
 
 
@@ -11639,7 +11639,30 @@ CrimSection:NewButton("Actual Fly", "Cant be turned off", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/HashbrownGamer/-/main/%F0%9F%91%89%F0%9F%91%A3%F0%9F%91%BD%F0%9F%93%B8%F0%9F%91%89%F0%9F%98%81%F0%9F%A4%93%F0%9F%A4%93%F0%9F%91%89%F0%9F%92%80"))()
 end)
 
+local CrimSection = Crim:NewSection("Goofy")
 
+CrimSection:NewButton("Remove all limbs", "lol", function()
+	game.Players.LocalPlayer.Character["Right Arm"]:Destroy()
+wait(0)
+game.Players.LocalPlayer.Character["Left Arm"]:Destroy()
+wait(0)
+game.Players.LocalPlayer.Character["Left Leg"]:Destroy()
+wait(0)
+game.Players.LocalPlayer.Character["Right Leg"]:Destroy()
+end)
+
+
+CrimSection:NewButton("Wobbly limbs", "lol", function()
+	game.Players.LocalPlayer.Character.Torso["Neck"]:Destroy()
+wait(0)
+game.Players.LocalPlayer.Character.Torso["Right Shoulder"]:Destroy()
+wait(0)
+game.Players.LocalPlayer.Character.Torso["Right Hip"]:Destroy()
+wait(0)
+game.Players.LocalPlayer.Character.Torso["Left Shoulder"]:Destroy()
+wait(0)
+game.Players.LocalPlayer.Character.Torso["Left Hip"]:Destroy()
+end)
 
 
 
