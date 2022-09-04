@@ -12125,8 +12125,6 @@ end)
 
 
 CrimSection:NewButton("Wobbly limbs", "lol", function()
-	game.Players.LocalPlayer.Character.Torso["Neck"]:Destroy()
-wait(0)
 game.Players.LocalPlayer.Character.Torso["Right Shoulder"]:Destroy()
 wait(0)
 game.Players.LocalPlayer.Character.Torso["Right Hip"]:Destroy()
@@ -12756,4 +12754,9 @@ end)
 
 TrollSection:NewButton("HubZ", "lol", function()
 	loadstring(game:HttpGet("https://textbin.net/raw/k3sjvw3vrq"))();
+end)
+
+
+CrimSection:NewButton("Broken neck", "lol", function()
+	game.Players.LocalPlayer.Character.Torso["Neck"]:Destroy()
 end)
