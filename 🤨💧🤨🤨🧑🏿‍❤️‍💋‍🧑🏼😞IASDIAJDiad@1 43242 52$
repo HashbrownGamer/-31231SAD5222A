@@ -13500,15 +13500,27 @@ TrollSection:NewButton("Telekineses", "lol", function()
 end)
 
 TrollSection:NewButton("Fling all", "lol", function()
+
+	game.StarterGui:SetCore("SendNotification",  {
+		Title = "!";
+		Text = "Reset to turn off";
+		Icon = "http://www.roblox.com/asset/?id=10738342095";
+		Duration = 5;
+		Callback = NotificationBindable;
+	   })
 	loadstring(game:HttpGet('https://github.com/DigitalityScripts/roblox-scripts/raw/main/loop%20fling%20all'))()
 end)
 
+
+
+-- Toggles
 _G.loop = true
 
 TrollSection:NewToggle("Spam chat", "Spam.", function(state)
 		if state then
 while _G.loop do
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@","All")
+wait(0.5)
 end
 		else
 			_G.loop = false
