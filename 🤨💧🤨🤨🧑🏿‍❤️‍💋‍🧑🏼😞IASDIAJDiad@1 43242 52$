@@ -13526,3 +13526,8 @@ end
 			_G.loop = false
 		end
 	end)
+
+
+	TrollSection:NewButton("R15 emote gui", "", function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/UniversalDance-AnimGui.lua'))()
+	end)
