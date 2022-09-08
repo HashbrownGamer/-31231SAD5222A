@@ -98,7 +98,7 @@ MainSection:NewButton("Info Hub", "Best script ever!1!!11!", function()
 	scriptName.BorderSizePixel = 0
 	scriptName.Size = UDim2.new(1, 0, 0, 20)
 	scriptName.Font = Enum.Font.SourceSans
-	scriptName.Text = "Unknown 🥸"
+	scriptName.Text = "8=====D Skill issue"
 	scriptName.TextColor3 = Color3.fromRGB(181, 181, 181)
 	scriptName.TextSize = 20.000
 	scriptName.TextWrapped = true
