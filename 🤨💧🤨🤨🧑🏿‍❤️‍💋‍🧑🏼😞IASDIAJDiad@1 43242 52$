@@ -13514,16 +13514,16 @@ end)
 
 
 -- Toggles
-_G.loop = true
+_G.ChatSpam = true
 
 TrollSection:NewToggle("Spam chat", "Spam.", function(state)
 		if state then
-while _G.loop do
+while _G.ChatSpam do
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@","All")
-wait(0.5)
+wait(1)
 end
 		else
-			_G.loop = false
+			_G.ChatSpam = false
 		end
 	end)
 
