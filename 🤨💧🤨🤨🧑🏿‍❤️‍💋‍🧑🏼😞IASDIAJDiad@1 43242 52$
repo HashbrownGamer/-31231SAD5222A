@@ -9070,8 +9070,8 @@ local Info = Window:NewTab("Info")
 
 local InfoSection = Info:NewSection("Updates")
 
-InfoSection:NewButton("Last updated on 12:56 AM 4/09/2022", ":Smileyface:", function()
-	print("Last updated on 12:56 4/09/2022")
+InfoSection:NewButton("Last updated on 12:56 AM 8/09/2022", ":Smileyface:", function()
+	print("Last updated on 12:56 8/09/2022")
 end)
 
 -- UPDATES
