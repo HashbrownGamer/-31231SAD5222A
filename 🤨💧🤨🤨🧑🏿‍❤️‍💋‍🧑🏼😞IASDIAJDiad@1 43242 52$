@@ -8631,7 +8631,7 @@ AimSection:NewButton("WinterTime", "Silent aim", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Nosssa/NossLock/main/WinterTime"))()
 end)
 
-AimSection:NewButton("Hitbox", "yes", function()
+AimSection:NewButton("Hitbox  (ctrl)", "yes", function()
 	if not game:IsLoaded() then game.Loaded:Wait() end
 
 local lPlayer = game.Players.LocalPlayer
