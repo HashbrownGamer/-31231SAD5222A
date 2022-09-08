@@ -13502,3 +13502,15 @@ end)
 TrollSection:NewButton("Fling all", "lol", function()
 	loadstring(game:HttpGet('https://github.com/DigitalityScripts/roblox-scripts/raw/main/loop%20fling%20all'))()
 end)
+
+_G.loop = true
+
+TrollSection:NewToggle("Spam chat", "Spam.", function(state)
+		if state then
+while _G.loop do
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@","All")
+end
+		else
+			_G.loop = false
+		end
+	end)
