@@ -11715,22 +11715,22 @@ local location = CFrame.new(-4782.52051, -200.968185, -957.955322, 0.223733395, 
 wait(0.1)
 pl.CFrame = location
 
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 
 wait(1)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
-
-local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(-4782.52051, -200.968185, -957.955322, 0.223733395, -1.75558512e-09, 0.974650383, -3.19841647e-08, 1, 9.14328968e-09, -0.974650383, -3.32190382e-08, 0.223733395)
-wait(0.1)
-pl.CFrame = location
-wait(0.5)
-
-local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(-4782.52051, -200.968185, -957.955322, 0.223733395, -1.75558512e-09, 0.974650383, -3.19841647e-08, 1, 9.14328968e-09, -0.974650383, -3.32190382e-08, 0.223733395)
-wait(0.1)
-pl.CFrame = location
-wait(0.5)
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4782.52051, -200.968185, -957.955322, 0.223733395, -1.75558512e-09, 0.974650383, -3.19841647e-08, 1, 9.14328968e-09, -0.974650383, -3.32190382e-08, 0.223733395)
@@ -11743,45 +11743,141 @@ local location = CFrame.new(-4782.52051, -200.968185, -957.955322, 0.223733395, 
 wait(0.1)
 pl.CFrame = location
 wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4782.52051, -200.968185, -957.955322, 0.223733395, -1.75558512e-09, 0.974650383, -3.19841647e-08, 1, 9.14328968e-09, -0.974650383, -3.32190382e-08, 0.223733395)
 wait(0.1)
 pl.CFrame = location
 wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4782.52051, -200.968185, -957.955322, 0.223733395, -1.75558512e-09, 0.974650383, -3.19841647e-08, 1, 9.14328968e-09, -0.974650383, -3.32190382e-08, 0.223733395)
+wait(0.1)
+pl.CFrame = location
+wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
+
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4782.52051, -200.968185, -957.955322, 0.223733395, -1.75558512e-09, 0.974650383, -3.19841647e-08, 1, 9.14328968e-09, -0.974650383, -3.32190382e-08, 0.223733395)
+wait(0.1)
+pl.CFrame = location
+wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
+
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4782.52051, -200.968185, -957.955322, 0.223733395, -1.75558512e-09, 0.974650383, -3.19841647e-08, 1, 9.14328968e-09, -0.974650383, -3.32190382e-08, 0.223733395)
 wait(0.1)
 pl.CFrame = location
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4782.52051, -200.968185, -957.955322, 0.223733395, -1.75558512e-09, 0.974650383, -3.19841647e-08, 1, 9.14328968e-09, -0.974650383, -3.32190382e-08, 0.223733395)
 wait(0.1)
 pl.CFrame = location
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4782.52051, -200.968185, -957.955322, 0.223733395, -1.75558512e-09, 0.974650383, -3.19841647e-08, 1, 9.14328968e-09, -0.974650383, -3.32190382e-08, 0.223733395)
 wait(0.1)
 pl.CFrame = location
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4782.52051, -200.968185, -957.955322, 0.223733395, -1.75558512e-09, 0.974650383, -3.19841647e-08, 1, 9.14328968e-09, -0.974650383, -3.32190382e-08, 0.223733395)
 wait(0.1)
 pl.CFrame = location
 
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4782.52051, -200.968185, -957.955322, 0.223733395, -1.75558512e-09, 0.974650383, -3.19841647e-08, 1, 9.14328968e-09, -0.974650383, -3.32190382e-08, 0.223733395)
 wait(0.1)
 pl.CFrame = location
 
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4782.52051, -200.968185, -957.955322, 0.223733395, -1.75558512e-09, 0.974650383, -3.19841647e-08, 1, 9.14328968e-09, -0.974650383, -3.32190382e-08, 0.223733395)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4782.52051, -200.968185, -957.955322, 0.223733395, -1.75558512e-09, 0.974650383, -3.19841647e-08, 1, 9.14328968e-09, -0.974650383, -3.32190382e-08, 0.223733395)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4782.52051, -200.968185, -957.955322, 0.223733395, -1.75558512e-09, 0.974650383, -3.19841647e-08, 1, 9.14328968e-09, -0.974650383, -3.32190382e-08, 0.223733395)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4782.52051, -200.968185, -957.955322, 0.223733395, -1.75558512e-09, 0.974650383, -3.19841647e-08, 1, 9.14328968e-09, -0.974650383, -3.32190382e-08, 0.223733395)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4782.52051, -200.968185, -957.955322, 0.223733395, -1.75558512e-09, 0.974650383, -3.19841647e-08, 1, 9.14328968e-09, -0.974650383, -3.32190382e-08, 0.223733395)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4782.52051, -200.968185, -957.955322, 0.223733395, -1.75558512e-09, 0.974650383, -3.19841647e-08, 1, 9.14328968e-09, -0.974650383, -3.32190382e-08, 0.223733395)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4782.52051, -200.968185, -957.955322, 0.223733395, -1.75558512e-09, 0.974650383, -3.19841647e-08, 1, 9.14328968e-09, -0.974650383, -3.32190382e-08, 0.223733395)
 wait(0.1)
@@ -11796,80 +11892,190 @@ CrimSection:NewButton("Cafe", "Tp to Cafe", function()
 local location = CFrame.new(-4668.15527, 5.99767447, -255.463531, -0.650091171, 3.60042627e-08, 0.759856224, 7.95636197e-08, 1, 2.06872599e-08, -0.759856224, 7.39055181e-08, -0.650091171)
 wait(0.1)
 pl.CFrame = location
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 
 
 wait(1)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
-
-local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(-4668.15527, 5.99767447, -255.463531, -0.650091171, 3.60042627e-08, 0.759856224, 7.95636197e-08, 1, 2.06872599e-08, -0.759856224, 7.39055181e-08, -0.650091171)
-wait(0.1)
-pl.CFrame = location
-wait(0.5)
-
-local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(-4668.15527, 5.99767447, -255.463531, -0.650091171, 3.60042627e-08, 0.759856224, 7.95636197e-08, 1, 2.06872599e-08, -0.759856224, 7.39055181e-08, -0.650091171)
-wait(0.1)
-pl.CFrame = location
-wait(0.5)
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4668.15527, 5.99767447, -255.463531, -0.650091171, 3.60042627e-08, 0.759856224, 7.95636197e-08, 1, 2.06872599e-08, -0.759856224, 7.39055181e-08, -0.650091171)
 wait(0.1)
 pl.CFrame = location
 wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4668.15527, 5.99767447, -255.463531, -0.650091171, 3.60042627e-08, 0.759856224, 7.95636197e-08, 1, 2.06872599e-08, -0.759856224, 7.39055181e-08, -0.650091171)
 wait(0.1)
 pl.CFrame = location
 wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4668.15527, 5.99767447, -255.463531, -0.650091171, 3.60042627e-08, 0.759856224, 7.95636197e-08, 1, 2.06872599e-08, -0.759856224, 7.39055181e-08, -0.650091171)
 wait(0.1)
 pl.CFrame = location
 wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4668.15527, 5.99767447, -255.463531, -0.650091171, 3.60042627e-08, 0.759856224, 7.95636197e-08, 1, 2.06872599e-08, -0.759856224, 7.39055181e-08, -0.650091171)
+wait(0.1)
+pl.CFrame = location
+wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
+
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4668.15527, 5.99767447, -255.463531, -0.650091171, 3.60042627e-08, 0.759856224, 7.95636197e-08, 1, 2.06872599e-08, -0.759856224, 7.39055181e-08, -0.650091171)
+wait(0.1)
+pl.CFrame = location
+wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
+
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4668.15527, 5.99767447, -255.463531, -0.650091171, 3.60042627e-08, 0.759856224, 7.95636197e-08, 1, 2.06872599e-08, -0.759856224, 7.39055181e-08, -0.650091171)
 wait(0.1)
 pl.CFrame = location
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4668.15527, 5.99767447, -255.463531, -0.650091171, 3.60042627e-08, 0.759856224, 7.95636197e-08, 1, 2.06872599e-08, -0.759856224, 7.39055181e-08, -0.650091171)
 wait(0.1)
 pl.CFrame = location
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4668.15527, 5.99767447, -255.463531, -0.650091171, 3.60042627e-08, 0.759856224, 7.95636197e-08, 1, 2.06872599e-08, -0.759856224, 7.39055181e-08, -0.650091171)
 wait(0.1)
 pl.CFrame = location
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4668.15527, 5.99767447, -255.463531, -0.650091171, 3.60042627e-08, 0.759856224, 7.95636197e-08, 1, 2.06872599e-08, -0.759856224, 7.39055181e-08, -0.650091171)
 wait(0.1)
 pl.CFrame = location
 
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4668.15527, 5.99767447, -255.463531, -0.650091171, 3.60042627e-08, 0.759856224, 7.95636197e-08, 1, 2.06872599e-08, -0.759856224, 7.39055181e-08, -0.650091171)
 wait(0.1)
 pl.CFrame = location
 
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4668.15527, 5.99767447, -255.463531, -0.650091171, 3.60042627e-08, 0.759856224, 7.95636197e-08, 1, 2.06872599e-08, -0.759856224, 7.39055181e-08, -0.650091171)
 wait(0.1)
 pl.CFrame = location
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4668.15527, 5.99767447, -255.463531, -0.650091171, 3.60042627e-08, 0.759856224, 7.95636197e-08, 1, 2.06872599e-08, -0.759856224, 7.39055181e-08, -0.650091171)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4668.15527, 5.99767447, -255.463531, -0.650091171, 3.60042627e-08, 0.759856224, 7.95636197e-08, 1, 2.06872599e-08, -0.759856224, 7.39055181e-08, -0.650091171)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4668.15527, 5.99767447, -255.463531, -0.650091171, 3.60042627e-08, 0.759856224, 7.95636197e-08, 1, 2.06872599e-08, -0.759856224, 7.39055181e-08, -0.650091171)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4668.15527, 5.99767447, -255.463531, -0.650091171, 3.60042627e-08, 0.759856224, 7.95636197e-08, 1, 2.06872599e-08, -0.759856224, 7.39055181e-08, -0.650091171)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4668.15527, 5.99767447, -255.463531, -0.650091171, 3.60042627e-08, 0.759856224, 7.95636197e-08, 1, 2.06872599e-08, -0.759856224, 7.39055181e-08, -0.650091171)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4668.15527, 5.99767447, -255.463531, -0.650091171, 3.60042627e-08, 0.759856224, 7.95636197e-08, 1, 2.06872599e-08, -0.759856224, 7.39055181e-08, -0.650091171)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4668.15527, 5.99767447, -255.463531, -0.650091171, 3.60042627e-08, 0.759856224, 7.95636197e-08, 1, 2.06872599e-08, -0.759856224, 7.39055181e-08, -0.650091171)
+wait(0.1)
+pl.CFrame = location
+
 
 end)
+
+
 
 
 
@@ -11880,76 +12086,189 @@ CrimSection:NewButton("Atm", "Tp to Atm", function()
 local location = CFrame.new(-4793.04785, 3.79732347, -379.897339, -0.426541179, -6.93341704e-08, -0.904468119, 5.07585867e-08, 1, -1.00594811e-07, 0.904468119, -8.88173517e-08, -0.426541179)
 wait(0.1)
 pl.CFrame = location
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 
 
 wait(1)
 
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4793.04785, 3.79732347, -379.897339, -0.426541179, -6.93341704e-08, -0.904468119, 5.07585867e-08, 1, -1.00594811e-07, 0.904468119, -8.88173517e-08, -0.426541179)
 wait(0.1)
 pl.CFrame = location
 wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4793.04785, 3.79732347, -379.897339, -0.426541179, -6.93341704e-08, -0.904468119, 5.07585867e-08, 1, -1.00594811e-07, 0.904468119, -8.88173517e-08, -0.426541179)
 wait(0.1)
 pl.CFrame = location
 wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4793.04785, 3.79732347, -379.897339, -0.426541179, -6.93341704e-08, -0.904468119, 5.07585867e-08, 1, -1.00594811e-07, 0.904468119, -8.88173517e-08, -0.426541179)
 wait(0.1)
 pl.CFrame = location
 wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4793.04785, 3.79732347, -379.897339, -0.426541179, -6.93341704e-08, -0.904468119, 5.07585867e-08, 1, -1.00594811e-07, 0.904468119, -8.88173517e-08, -0.426541179)
 wait(0.1)
 pl.CFrame = location
 wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4793.04785, 3.79732347, -379.897339, -0.426541179, -6.93341704e-08, -0.904468119, 5.07585867e-08, 1, -1.00594811e-07, 0.904468119, -8.88173517e-08, -0.426541179)
 wait(0.1)
 pl.CFrame = location
 wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4793.04785, 3.79732347, -379.897339, -0.426541179, -6.93341704e-08, -0.904468119, 5.07585867e-08, 1, -1.00594811e-07, 0.904468119, -8.88173517e-08, -0.426541179)
 wait(0.1)
 pl.CFrame = location
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4793.04785, 3.79732347, -379.897339, -0.426541179, -6.93341704e-08, -0.904468119, 5.07585867e-08, 1, -1.00594811e-07, 0.904468119, -8.88173517e-08, -0.426541179)
 wait(0.1)
 pl.CFrame = location
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4793.04785, 3.79732347, -379.897339, -0.426541179, -6.93341704e-08, -0.904468119, 5.07585867e-08, 1, -1.00594811e-07, 0.904468119, -8.88173517e-08, -0.426541179)
 wait(0.1)
 pl.CFrame = location
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4793.04785, 3.79732347, -379.897339, -0.426541179, -6.93341704e-08, -0.904468119, 5.07585867e-08, 1, -1.00594811e-07, 0.904468119, -8.88173517e-08, -0.426541179)
 wait(0.1)
 pl.CFrame = location
 
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local location = CFrame.new(-4793.04785, 3.79732347, -379.897339, -0.426541179, -6.93341704e-08, -0.904468119, 5.07585867e-08, 1, -1.00594811e-07, 0.904468119, -8.88173517e-08, -0.426541179)
 wait(0.1)
 pl.CFrame = location
 
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local location = CFrame.new(-4793.04785, 3.79732347, -379.897339, -0.426541179, -6.93341704e-08, -0.904468119, 5.07585867e-08, 1, -1.00594811e-07, 0.904468119, -8.88173517e-08, -0.426541179)
 wait(0.1)
 pl.CFrame = location
+wait(0.2)
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local location = CFrame.new(-4793.04785, 3.79732347, -379.897339, -0.426541179, -6.93341704e-08, -0.904468119, 5.07585867e-08, 1, -1.00594811e-07, 0.904468119, -8.88173517e-08, -0.426541179)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local location = CFrame.new(-4793.04785, 3.79732347, -379.897339, -0.426541179, -6.93341704e-08, -0.904468119, 5.07585867e-08, 1, -1.00594811e-07, 0.904468119, -8.88173517e-08, -0.426541179)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local location = CFrame.new(-4793.04785, 3.79732347, -379.897339, -0.426541179, -6.93341704e-08, -0.904468119, 5.07585867e-08, 1, -1.00594811e-07, 0.904468119, -8.88173517e-08, -0.426541179)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local location = CFrame.new(-4793.04785, 3.79732347, -379.897339, -0.426541179, -6.93341704e-08, -0.904468119, 5.07585867e-08, 1, -1.00594811e-07, 0.904468119, -8.88173517e-08, -0.426541179)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local location = CFrame.new(-4793.04785, 3.79732347, -379.897339, -0.426541179, -6.93341704e-08, -0.904468119, 5.07585867e-08, 1, -1.00594811e-07, 0.904468119, -8.88173517e-08, -0.426541179)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local location = CFrame.new(-4793.04785, 3.79732347, -379.897339, -0.426541179, -6.93341704e-08, -0.904468119, 5.07585867e-08, 1, -1.00594811e-07, 0.904468119, -8.88173517e-08, -0.426541179)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local location = CFrame.new(-4793.04785, 3.79732347, -379.897339, -0.426541179, -6.93341704e-08, -0.904468119, 5.07585867e-08, 1, -1.00594811e-07, 0.904468119, -8.88173517e-08, -0.426541179)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local location = CFrame.new(-4793.04785, 3.79732347, -379.897339, -0.426541179, -6.93341704e-08, -0.904468119, 5.07585867e-08, 1, -1.00594811e-07, 0.904468119, -8.88173517e-08, -0.426541179)
+wait(0.1)
+pl.CFrame = location
+
 end)
 
 
@@ -11960,79 +12279,180 @@ CrimSection:NewButton("Armory", "Tp to Armory", function()
 local location = CFrame.new(-4770.24219, 4.00021076, -418.11261, 0.999993443, -2.15534008e-08, 0.00362686743, 2.16136673e-08, 1, -1.65772001e-08, -0.00362686743, 1.66554806e-08, 0.999993443)
 wait(0.1)
 pl.CFrame = location
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 
 
 wait(1)
 
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4770.24219, 4.00021076, -418.11261, 0.999993443, -2.15534008e-08, 0.00362686743, 2.16136673e-08, 1, -1.65772001e-08, -0.00362686743, 1.66554806e-08, 0.999993443)
 wait(0.1)
 pl.CFrame = location
 wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4770.24219, 4.00021076, -418.11261, 0.999993443, -2.15534008e-08, 0.00362686743, 2.16136673e-08, 1, -1.65772001e-08, -0.00362686743, 1.66554806e-08, 0.999993443)
 wait(0.1)
 pl.CFrame = location
 wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4770.24219, 4.00021076, -418.11261, 0.999993443, -2.15534008e-08, 0.00362686743, 2.16136673e-08, 1, -1.65772001e-08, -0.00362686743, 1.66554806e-08, 0.999993443)
 wait(0.1)
 pl.CFrame = location
 wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4770.24219, 4.00021076, -418.11261, 0.999993443, -2.15534008e-08, 0.00362686743, 2.16136673e-08, 1, -1.65772001e-08, -0.00362686743, 1.66554806e-08, 0.999993443)
 wait(0.1)
 pl.CFrame = location
 wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4770.24219, 4.00021076, -418.11261, 0.999993443, -2.15534008e-08, 0.00362686743, 2.16136673e-08, 1, -1.65772001e-08, -0.00362686743, 1.66554806e-08, 0.999993443)
 wait(0.1)
 pl.CFrame = location
 wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4770.24219, 4.00021076, -418.11261, 0.999993443, -2.15534008e-08, 0.00362686743, 2.16136673e-08, 1, -1.65772001e-08, -0.00362686743, 1.66554806e-08, 0.999993443)
 wait(0.1)
 pl.CFrame = location
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4770.24219, 4.00021076, -418.11261, 0.999993443, -2.15534008e-08, 0.00362686743, 2.16136673e-08, 1, -1.65772001e-08, -0.00362686743, 1.66554806e-08, 0.999993443)
 wait(0.1)
 pl.CFrame = location
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4770.24219, 4.00021076, -418.11261, 0.999993443, -2.15534008e-08, 0.00362686743, 2.16136673e-08, 1, -1.65772001e-08, -0.00362686743, 1.66554806e-08, 0.999993443)
 wait(0.1)
 pl.CFrame = location
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4770.24219, 4.00021076, -418.11261, 0.999993443, -2.15534008e-08, 0.00362686743, 2.16136673e-08, 1, -1.65772001e-08, -0.00362686743, 1.66554806e-08, 0.999993443)
 wait(0.1)
 pl.CFrame = location
 
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4770.24219, 4.00021076, -418.11261, 0.999993443, -2.15534008e-08, 0.00362686743, 2.16136673e-08, 1, -1.65772001e-08, -0.00362686743, 1.66554806e-08, 0.999993443)
 wait(0.1)
 pl.CFrame = location
 
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4770.24219, 4.00021076, -418.11261, 0.999993443, -2.15534008e-08, 0.00362686743, 2.16136673e-08, 1, -1.65772001e-08, -0.00362686743, 1.66554806e-08, 0.999993443)
 wait(0.1)
 pl.CFrame = location
-
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4770.24219, 4.00021076, -418.11261, 0.999993443, -2.15534008e-08, 0.00362686743, 2.16136673e-08, 1, -1.65772001e-08, -0.00362686743, 1.66554806e-08, 0.999993443)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4770.24219, 4.00021076, -418.11261, 0.999993443, -2.15534008e-08, 0.00362686743, 2.16136673e-08, 1, -1.65772001e-08, -0.00362686743, 1.66554806e-08, 0.999993443)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4770.24219, 4.00021076, -418.11261, 0.999993443, -2.15534008e-08, 0.00362686743, 2.16136673e-08, 1, -1.65772001e-08, -0.00362686743, 1.66554806e-08, 0.999993443)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4770.24219, 4.00021076, -418.11261, 0.999993443, -2.15534008e-08, 0.00362686743, 2.16136673e-08, 1, -1.65772001e-08, -0.00362686743, 1.66554806e-08, 0.999993443)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4770.24219, 4.00021076, -418.11261, 0.999993443, -2.15534008e-08, 0.00362686743, 2.16136673e-08, 1, -1.65772001e-08, -0.00362686743, 1.66554806e-08, 0.999993443)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4770.24219, 4.00021076, -418.11261, 0.999993443, -2.15534008e-08, 0.00362686743, 2.16136673e-08, 1, -1.65772001e-08, -0.00362686743, 1.66554806e-08, 0.999993443)
+wait(0.1)
+pl.CFrame = location
 end)
 
 
@@ -12042,67 +12462,133 @@ CrimSection:NewButton("Dealer", "Tp to Dealer", function()
 local location = CFrame.new(-4818.96191, 3.79540682, -711.538208, 0.0106552662, 1.02375019e-07, -0.999943256, -1.5388661e-08, 1, 1.02216845e-07, 0.999943256, 1.42986396e-08, 0.0106552662)
 wait(0.1)
 pl.CFrame = location
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 
 
 wait(1)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
-
-local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(-4818.96191, 3.79540682, -711.538208, 0.0106552662, 1.02375019e-07, -0.999943256, -1.5388661e-08, 1, 1.02216845e-07, 0.999943256, 1.42986396e-08, 0.0106552662)
-wait(0.1)
-pl.CFrame = location
-wait(0.5)
-
-local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(-4818.96191, 3.79540682, -711.538208, 0.0106552662, 1.02375019e-07, -0.999943256, -1.5388661e-08, 1, 1.02216845e-07, 0.999943256, 1.42986396e-08, 0.0106552662)
-wait(0.1)
-pl.CFrame = location
-wait(0.5)
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4818.96191, 3.79540682, -711.538208, 0.0106552662, 1.02375019e-07, -0.999943256, -1.5388661e-08, 1, 1.02216845e-07, 0.999943256, 1.42986396e-08, 0.0106552662)
 wait(0.1)
 pl.CFrame = location
 wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4818.96191, 3.79540682, -711.538208, 0.0106552662, 1.02375019e-07, -0.999943256, -1.5388661e-08, 1, 1.02216845e-07, 0.999943256, 1.42986396e-08, 0.0106552662)
 wait(0.1)
 pl.CFrame = location
 wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4818.96191, 3.79540682, -711.538208, 0.0106552662, 1.02375019e-07, -0.999943256, -1.5388661e-08, 1, 1.02216845e-07, 0.999943256, 1.42986396e-08, 0.0106552662)
 wait(0.1)
 pl.CFrame = location
 wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4818.96191, 3.79540682, -711.538208, 0.0106552662, 1.02375019e-07, -0.999943256, -1.5388661e-08, 1, 1.02216845e-07, 0.999943256, 1.42986396e-08, 0.0106552662)
+wait(0.1)
+pl.CFrame = location
+wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
+
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4818.96191, 3.79540682, -711.538208, 0.0106552662, 1.02375019e-07, -0.999943256, -1.5388661e-08, 1, 1.02216845e-07, 0.999943256, 1.42986396e-08, 0.0106552662)
+wait(0.1)
+pl.CFrame = location
+wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
+
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4818.96191, 3.79540682, -711.538208, 0.0106552662, 1.02375019e-07, -0.999943256, -1.5388661e-08, 1, 1.02216845e-07, 0.999943256, 1.42986396e-08, 0.0106552662)
 wait(0.1)
 pl.CFrame = location
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4818.96191, 3.79540682, -711.538208, 0.0106552662, 1.02375019e-07, -0.999943256, -1.5388661e-08, 1, 1.02216845e-07, 0.999943256, 1.42986396e-08, 0.0106552662)
 wait(0.1)
 pl.CFrame = location
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4818.96191, 3.79540682, -711.538208, 0.0106552662, 1.02375019e-07, -0.999943256, -1.5388661e-08, 1, 1.02216845e-07, 0.999943256, 1.42986396e-08, 0.0106552662)
 wait(0.1)
 pl.CFrame = location
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4818.96191, 3.79540682, -711.538208, 0.0106552662, 1.02375019e-07, -0.999943256, -1.5388661e-08, 1, 1.02216845e-07, 0.999943256, 1.42986396e-08, 0.0106552662)
 wait(0.1)
 pl.CFrame = location
 
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4818.96191, 3.79540682, -711.538208, 0.0106552662, 1.02375019e-07, -0.999943256, -1.5388661e-08, 1, 1.02216845e-07, 0.999943256, 1.42986396e-08, 0.0106552662)
 wait(0.1)
@@ -12110,12 +12596,52 @@ pl.CFrame = location
 
 
 wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4818.96191, 3.79540682, -711.538208, 0.0106552662, 1.02375019e-07, -0.999943256, -1.5388661e-08, 1, 1.02216845e-07, 0.999943256, 1.42986396e-08, 0.0106552662)
 wait(0.1)
 pl.CFrame = location
-
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4818.96191, 3.79540682, -711.538208, 0.0106552662, 1.02375019e-07, -0.999943256, -1.5388661e-08, 1, 1.02216845e-07, 0.999943256, 1.42986396e-08, 0.0106552662)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4818.96191, 3.79540682, -711.538208, 0.0106552662, 1.02375019e-07, -0.999943256, -1.5388661e-08, 1, 1.02216845e-07, 0.999943256, 1.42986396e-08, 0.0106552662)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4818.96191, 3.79540682, -711.538208, 0.0106552662, 1.02375019e-07, -0.999943256, -1.5388661e-08, 1, 1.02216845e-07, 0.999943256, 1.42986396e-08, 0.0106552662)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4818.96191, 3.79540682, -711.538208, 0.0106552662, 1.02375019e-07, -0.999943256, -1.5388661e-08, 1, 1.02216845e-07, 0.999943256, 1.42986396e-08, 0.0106552662)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4818.96191, 3.79540682, -711.538208, 0.0106552662, 1.02375019e-07, -0.999943256, -1.5388661e-08, 1, 1.02216845e-07, 0.999943256, 1.42986396e-08, 0.0106552662)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4818.96191, 3.79540682, -711.538208, 0.0106552662, 1.02375019e-07, -0.999943256, -1.5388661e-08, 1, 1.02216845e-07, 0.999943256, 1.42986396e-08, 0.0106552662)
+wait(0.1)
+pl.CFrame = location
+wait(0.2)
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4818.96191, 3.79540682, -711.538208, 0.0106552662, 1.02375019e-07, -0.999943256, -1.5388661e-08, 1, 1.02216845e-07, 0.999943256, 1.42986396e-08, 0.0106552662)
+wait(0.1)
+pl.CFrame = location
 
 end)
 
@@ -12125,86 +12651,191 @@ CrimSection:NewButton("Atm farm Spot", "Tp to farm spot", function()
 local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
 wait(0.1)
 pl.CFrame = location
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 
 
 wait(1)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
-wait(0.1)
 pl.CFrame = location
 wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
-wait(0.1)
+
 pl.CFrame = location
 wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
-wait(0.1)
+
 pl.CFrame = location
 wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
-wait(0.1)
+
 pl.CFrame = location
 wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
-wait(0.1)
+
 pl.CFrame = location
 wait(0.5)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
-wait(0.1)
+
+pl.CFrame = location
+wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
+
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
+
+pl.CFrame = location
+wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
+
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
+
+pl.CFrame = location
+wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
+
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
 pl.CFrame = location
 wait(0.2)
 
-local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
-wait(0.1)
-pl.CFrame = location
-wait(0.2)
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 
-local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
-wait(0.1)
-pl.CFrame = location
-wait(0.2)
-
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
 wait(0.1)
 pl.CFrame = location
 
 wait(0.2)
-
-local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
-wait(0.1)
-pl.CFrame = location
-
+local args = {
+    [1] = "__--r",
+    [2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+    [3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+}
 wait(0.2)
-
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
-wait(0.1)
+pl.CFrame = location
+wait(0.2)
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
+pl.CFrame = location
+wait(0.2)
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
+pl.CFrame = location
+wait(0.2)
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
+pl.CFrame = location
+wait(0.2)
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
+pl.CFrame = location
+wait(0.2)
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
+pl.CFrame = location
+wait(0.2)
+game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
 pl.CFrame = location
 end)
 
-
 CrimSection:NewButton("Afk", "Tp to Afk", function()
 	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-	local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
+	local location = CFrame.new(-4919.7583, 144.258896, -1160.41406, -0.980917633, -5.26523145e-08, 0.194423869, -6.67045938e-08, 1, -6.57295658e-08, -0.194423869, -7.74442555e-08, -0.980917633)
 	wait(0.1)
 	pl.CFrame = location
+	local args = {
+		[1] = "__--r",
+		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+	}
+	
+	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 	
 	
 	
@@ -12213,66 +12844,155 @@ CrimSection:NewButton("Afk", "Tp to Afk", function()
 	
 	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 	local location = CFrame.new(-4919.7583, 144.258896, -1160.41406, -0.980917633, -5.26523145e-08, 0.194423869, -6.67045938e-08, 1, -6.57295658e-08, -0.194423869, -7.74442555e-08, -0.980917633)
-	wait(0.1)
 	pl.CFrame = location
 	wait(0.5)
+	local args = {
+		[1] = "__--r",
+		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+	}
+	
+	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 	
 	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 	local location = CFrame.new(-4919.7583, 144.258896, -1160.41406, -0.980917633, -5.26523145e-08, 0.194423869, -6.67045938e-08, 1, -6.57295658e-08, -0.194423869, -7.74442555e-08, -0.980917633)
-	wait(0.1)
 	pl.CFrame = location
 	wait(0.5)
+	local args = {
+		[1] = "__--r",
+		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+	}
+	
+	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 	
 	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 	local location = CFrame.new(-4919.7583, 144.258896, -1160.41406, -0.980917633, -5.26523145e-08, 0.194423869, -6.67045938e-08, 1, -6.57295658e-08, -0.194423869, -7.74442555e-08, -0.980917633)
-	wait(0.1)
 	pl.CFrame = location
 	wait(0.5)
+	local args = {
+		[1] = "__--r",
+		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+	}
+	
+	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 	
 	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 	local location = CFrame.new(-4919.7583, 144.258896, -1160.41406, -0.980917633, -5.26523145e-08, 0.194423869, -6.67045938e-08, 1, -6.57295658e-08, -0.194423869, -7.74442555e-08, -0.980917633)
-	wait(0.1)
 	pl.CFrame = location
 	wait(0.5)
+	local args = {
+		[1] = "__--r",
+		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+	}
+	
+	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 	
 	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 	local location = CFrame.new(-4919.7583, 144.258896, -1160.41406, -0.980917633, -5.26523145e-08, 0.194423869, -6.67045938e-08, 1, -6.57295658e-08, -0.194423869, -7.74442555e-08, -0.980917633)
-	wait(0.1)
 	pl.CFrame = location
 	wait(0.5)
+	local args = {
+		[1] = "__--r",
+		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+	}
+	
+	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 	
 	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 	local location = CFrame.new(-4919.7583, 144.258896, -1160.41406, -0.980917633, -5.26523145e-08, 0.194423869, -6.67045938e-08, 1, -6.57295658e-08, -0.194423869, -7.74442555e-08, -0.980917633)
-	wait(0.1)
 	pl.CFrame = location
+	wait(0.2)
+	local args = {
+		[1] = "__--r",
+		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+	}
+	
+	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+
+	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+	local location = CFrame.new(-4919.7583, 144.258896, -1160.41406, -0.980917633, -5.26523145e-08, 0.194423869, -6.67045938e-08, 1, -6.57295658e-08, -0.194423869, -7.74442555e-08, -0.980917633)
+	pl.CFrame = location
+	wait(0.2)
+	local args = {
+		[1] = "__--r",
+		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+	}
+	
+	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+	local location = CFrame.new(-4919.7583, 144.258896, -1160.41406, -0.980917633, -5.26523145e-08, 0.194423869, -6.67045938e-08, 1, -6.57295658e-08, -0.194423869, -7.74442555e-08, -0.980917633)
+	pl.CFrame = location
+	wait(0.2)
+	local args = {
+		[1] = "__--r",
+		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+	}
+	
+	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
+	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+	local location = CFrame.new(-4919.7583, 144.258896, -1160.41406, -0.980917633, -5.26523145e-08, 0.194423869, -6.67045938e-08, 1, -6.57295658e-08, -0.194423869, -7.74442555e-08, -0.980917633)
+	pl.CFrame = location
+	wait(0.1)
+	local args = {
+		[1] = "__--r",
+		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+	}
+	
+	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 	wait(0.2)
 	
 	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 	local location = CFrame.new(-4919.7583, 144.258896, -1160.41406, -0.980917633, -5.26523145e-08, 0.194423869, -6.67045938e-08, 1, -6.57295658e-08, -0.194423869, -7.74442555e-08, -0.980917633)
-	wait(0.1)
-	pl.CFrame = location
-	wait(0.2)
-	
-	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-	local location = CFrame.new(-4919.7583, 144.258896, -1160.41406, -0.980917633, -5.26523145e-08, 0.194423869, -6.67045938e-08, 1, -6.57295658e-08, -0.194423869, -7.74442555e-08, -0.980917633)
-	wait(0.1)
-	pl.CFrame = location
-	wait(0.2)
-	
-	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-	local location = CFrame.new(-4919.7583, 144.258896, -1160.41406, -0.980917633, -5.26523145e-08, 0.194423869, -6.67045938e-08, 1, -6.57295658e-08, -0.194423869, -7.74442555e-08, -0.980917633)
 	pl.CFrame = location
 	wait(0.1)
+	local args = {
+		[1] = "__--r",
+		[2] = game.Players.LocalPlayer.Character.HumanoidRootPart.Position,
+		[3] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,0,0)
+	}
 	
+	game:GetService("ReplicatedStorage").Events.__DFfDD:FireServer(unpack(args))
 	wait(0.2)
-	
 	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 	local location = CFrame.new(-4919.7583, 144.258896, -1160.41406, -0.980917633, -5.26523145e-08, 0.194423869, -6.67045938e-08, 1, -6.57295658e-08, -0.194423869, -7.74442555e-08, -0.980917633)
 	pl.CFrame = location
 	wait(0.1)
-	
+
+
 	wait(0.2)
-	
+	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+	local location = CFrame.new(-4919.7583, 144.258896, -1160.41406, -0.980917633, -5.26523145e-08, 0.194423869, -6.67045938e-08, 1, -6.57295658e-08, -0.194423869, -7.74442555e-08, -0.980917633)
+	pl.CFrame = location
+	wait(0.1)
+	wait(0.2)
+	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+	local location = CFrame.new(-4919.7583, 144.258896, -1160.41406, -0.980917633, -5.26523145e-08, 0.194423869, -6.67045938e-08, 1, -6.57295658e-08, -0.194423869, -7.74442555e-08, -0.980917633)
+	pl.CFrame = location
+	wait(0.1)
+	wait(0.2)
+	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+	local location = CFrame.new(-4919.7583, 144.258896, -1160.41406, -0.980917633, -5.26523145e-08, 0.194423869, -6.67045938e-08, 1, -6.57295658e-08, -0.194423869, -7.74442555e-08, -0.980917633)
+	pl.CFrame = location
+	wait(0.1)
+	wait(0.2)
+	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+	local location = CFrame.new(-4919.7583, 144.258896, -1160.41406, -0.980917633, -5.26523145e-08, 0.194423869, -6.67045938e-08, 1, -6.57295658e-08, -0.194423869, -7.74442555e-08, -0.980917633)
+	pl.CFrame = location
+	wait(0.1)
+	wait(0.2)
+	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+	local location = CFrame.new(-4919.7583, 144.258896, -1160.41406, -0.980917633, -5.26523145e-08, 0.194423869, -6.67045938e-08, 1, -6.57295658e-08, -0.194423869, -7.74442555e-08, -0.980917633)
+	pl.CFrame = location
+	wait(0.1)
+	wait(0.2)
 	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 	local location = CFrame.new(-4919.7583, 144.258896, -1160.41406, -0.980917633, -5.26523145e-08, 0.194423869, -6.67045938e-08, 1, -6.57295658e-08, -0.194423869, -7.74442555e-08, -0.980917633)
 	pl.CFrame = location
