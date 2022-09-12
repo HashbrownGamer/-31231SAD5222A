@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Skill issue  💪                                                             Yield#0988", "BloodTheme")
+local Window = Library.CreateLib("Skill issue  💪                                                             Yield#0988", "GrapeTheme")
 
 
 -- MAIN
@@ -9070,17 +9070,16 @@ local Info = Window:NewTab("Info")
 
 local InfoSection = Info:NewSection("Updates")
 
-InfoSection:NewButton("Last updated on 8/09/2022", ":Smileyface:", function()
-	print("Last updated on 8/09/2022")
-end)
+InfoSection:NewLabel("Last updated on 12/9/2022")
+
 
 -- UPDATES
-InfoSection:NewButton("Click for updates ----------------->", "Added animations + better tp + telekinises", function()
-end)
+InfoSection:NewLabel("Hi")
 
 
-InfoSection:NewButton("Made By Yield#0988", "yay", function()
-end)
+
+InfoSection:NewLabel("Made by Yield#0988")
+
 
 
 
