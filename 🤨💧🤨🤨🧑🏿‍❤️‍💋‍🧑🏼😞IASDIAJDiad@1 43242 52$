@@ -9763,7 +9763,7 @@ pl.CFrame = location
 end)
 
 
-CrimSection:NewButton("Atm farm Spot", "Tp to farm spot", function()
+CrimSection:NewButton("Auto claim allowance Atm farm Spot", "Just tp there and turn on auto claim allowance", function()
 	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
 wait(0.1)
@@ -9879,6 +9879,25 @@ local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-4300.59229, 7.5943327, -397.968353, 0.999972939, -1.91919036e-10, 0.00735477591, -3.97775923e-10, 1, 8.01770454e-08, -0.00735477591, -8.01778057e-08, 0.999972939)
 pl.CFrame = location
 end)
+
+CrimSection:NewToggle("Auto claim allowance", "made by Shafer#8116 🤤😍", function(state)
+    if state then
+        _G.AutoClaimAllowance = true
+
+
+		while _G.AutoClaimAllowance do
+
+			for _FORV3, _FORV4 in pairs(game:GetService("Workspace").Map.ATMz:GetChildren()) do
+				game:GetService("ReplicatedStorage").Events.CLMZALOW:InvokeServer(_FORV4.MainPart)
+			end
+		end
+    else
+        _G.AutoClaimAllowance = false
+    end
+end)
+
+
+
 
 CrimSection:NewButton("Afk", "Tp to Afk", function()
 	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
@@ -10209,6 +10228,21 @@ end)
 
 local CrimSection = Crim:NewSection("LocalPlayer")
 
+CrimSection:NewButton("Anti afk", "made by Shafer#8116 🤤😍", function()
+	game.StarterGui:SetCore("SendNotification",  {
+		Title = "AntiAfk Enabled";
+		Text = "Made by Shafer#8116 😍😍😍🤤🤤🤤";
+		Icon = "http://www.roblox.com/asset/?id=10590477428";
+		Duration = 5;
+		Callback = NotificationBindable;
+	   })
+	   wait(0)
+    local function aafk()
+		_UPVALUE0_:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+	wait(1)
+	_UPVALUE0_:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+	end
+end)
 
 CrimSection:NewButton("Tp Fly  (G)", "h", function()
 	spawn(function()
