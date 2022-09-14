@@ -11344,3 +11344,32 @@ end
 	TrollSection:NewButton("R15 emote gui", "", function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/UniversalDance-AnimGui.lua'))()
 	end)
+
+
+	TrollSection:NewButton("Fire all remote events", "idk if it fully works", function()
+		local path = game --Change this to your selected path or leave variable alone for every remote in the game
+
+for i,v in pairs(path:GetDescendants()) do
+if v:IsA("RemoteEvent") then
+v:FireServer()
+if v:IsA("BindableEvent") then
+v:Fire()
+if v:IsA("RemoteFunction") then
+v:InvokeServer()
+end
+end
+end
+end
+end)
+
+
+
+TrollSection:NewButton("Touch all fire interests", "idk if it fully works", function()
+	for _,v in pairs(workspace:GetDescendants()) do
+		if v:IsA("TouchTransmitter") then
+		firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 0) --0 is touch
+		wait()
+		firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 1) -- 1 is untouch
+		end
+		end
+	end)
