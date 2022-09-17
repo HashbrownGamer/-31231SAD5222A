@@ -2593,6 +2593,22 @@ MainSection:NewToggle("Noclip", "hi", function(state)
 end)
 
 
+MainSection:NewToggle("AntiAim/SpinBot", "hi", function(state)
+	if state then
+		_G.SpinBot = true
+
+
+
+		while _G.SpinBot do
+		local Client = game:GetService("Players").LocalPlayer;
+		Client.Character.HumanoidRootPart.CFrame = Client.Character.HumanoidRootPart.CFrame * CFrame.Angles(200, math.rad(150), 299)
+		wait(0.0000000000000000000000000001)
+		end
+	else
+		_G.SpinBot = false
+	end
+end)
+
 local MainSection = Main:NewSection("Tools")
 MainSection:NewButton("Tool duper", "Dupe tools", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/PBNaUS1J'))()
@@ -10354,6 +10370,23 @@ CrimSection:NewButton("Actual Fly", "Cant be turned off", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/HashbrownGamer/-/main/%F0%9F%91%89%F0%9F%91%A3%F0%9F%91%BD%F0%9F%93%B8%F0%9F%91%89%F0%9F%98%81%F0%9F%A4%93%F0%9F%A4%93%F0%9F%91%89%F0%9F%92%80"))()
 end)
 
+
+CrimSection:NewToggle("Anti Aim", "hi", function(state)
+	if state then
+		_G.CrimSpinBot = true
+
+
+
+		while _G.CrimSpinBot do
+			local Client = game:GetService("Players").LocalPlayer;
+			Client.Character.HumanoidRootPart.CFrame = Client.Character.HumanoidRootPart.CFrame * CFrame.Angles(750, math.rad(5), 650)
+			wait(0.000001)
+		end
+	else
+		_G.CrimSpinBot = false
+	end
+end)
+
 local CrimSection = Crim:NewSection("Goofy")
 
 CrimSection:NewButton("Remove all limbs", "lol", function()
@@ -11392,3 +11425,8 @@ TrollSection:NewButton("Touch all fire interests", "idk if it fully works", func
 		end
 		end
 	end)
+
+
+
+
+
