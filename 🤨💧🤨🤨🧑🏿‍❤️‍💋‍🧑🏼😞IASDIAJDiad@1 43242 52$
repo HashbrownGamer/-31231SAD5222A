@@ -2572,6 +2572,25 @@ MainSection:NewSlider("JumpPower", "go fly high", 10000, 50, function(s) -- 500 
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
+MainSection:NewToggle("Noclip", "hi", function(state)
+    if state then
+        _G.noclip = true -- toggle to true to enable
+ 
+ local Loop  game:GetService('RunService').Stepped:connect(function()
+            if _G.noclip then
+                for i, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+                    if v:IsA("BasePart") then
+                        if v.CanCollide ~= not _G.noclip then
+                            v.CanCollide = not _G.noclip
+                        end
+                    end
+                end
+            end
+        end)
+    else
+        _G.noclip = false
+    end
+end)
 
 
 local MainSection = Main:NewSection("Tools")
